@@ -1,6 +1,6 @@
 # Alphabetizer
 
-## Method 1: Use a Hammer (Brute Force):
+## Method 1: [Use a Hammer (Brute Force)](https://github.com/shethabhish/Alphabetizer/blob/main/Alphabetizer-1.py):
 
 Maintain two ```for``` loops to iterate over the input string and compare each element and swap them according to ascending order.
 
@@ -10,7 +10,7 @@ We iterate over the given string two times and compare each alphabet to find the
 Space Complexity:
 We have an result array to store the alphabets into a list format because strings are immutable, the space complexity is => ```O(N)```, where N is the number of alphabets.
 
-## Method 2: Merge Sort:
+## Method 2: [Merge Sort](https://github.com/shethabhish/Alphabetizer/blob/main/Alphabetizer-2.py):
 
 Perform Regular Merge Sort. Split the input string into two halves until there is one element is left in both halves, compare both the elements and merge them in ascending order and continue doing it for the rest of the string.
 
@@ -22,7 +22,7 @@ Since we perform a regular merge sort and compare elements and place them in the
 Space Complexity:
 We have an result array to store the alphabets after comparing, the space complexity is => ```O(N)```, where N is the number of alphabets.
 
-## Method 3: Use buckets (Bucket Sort):
+## Method 3: [Use Some Buckets (Bucket Sort)](https://github.com/shethabhish/Alphabetizer/blob/main/Alphabetizer-3.py):
 
 Maintain 26 buckets since there are 26 alphabets and in each bucket maintain the frequency of the corresponding alphabet number and their captilization, at the end iterate over the buckets to form the result string.
 
